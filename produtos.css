@@ -1,0 +1,116 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    background-color:#dabff1;
+}
+
+header{
+    color:purple;
+    text-align:center;
+    padding:30px;
+    background-image: url(img/capa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a:hover{
+    color: purple;
+}
+
+.produto{
+    background:white;
+    width:800px;
+    margin:30px auto;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.2);
+}
+
+img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+}
+.produto img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.produto h2{
+    color:violet;
+}
+
+.produto h3{
+    color:purple;
+}
+
+.produto h4{
+    color:#c2185b;
+    font-size:28px;
+}
+
+.produto a{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 15px;
+    background-color:purple;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.produto a:hover{
+    background-color:#b000b0;
+}
+
+footer {
+    background-color:pink;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+@media (max-width:768px){
+
+    header {
+    min-height: auto;
+    padding: 30px;
+}
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .produto{
+        width:90%;
+    }
+
+    .produto img{
+        width:100%;
+        height:auto;
+    }
+
+    .produto h3{
+        font-size:24px;
+    }
+
+    footer {
+        background-color:pink;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+}

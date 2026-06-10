@@ -1,0 +1,91 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    background-color:rgb(218, 191, 241);
+}
+
+header{
+    color:purple;
+    text-align:center;
+    padding:30px;
+    background-image: url(img/capa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+table{
+    width:80%;
+    margin:30px auto;
+    border-collapse:collapse;
+    background-color:white;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.2);
+}
+
+th{
+    background-color:purple;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background-color:#f9f0ff;
+}
+
+h2{
+    text-align:center;
+    color:#c2185b;
+    margin-top:20px;
+    font-size:30px;
+}
+.botoes{
+    text-align:center;
+    margin:30px;
+}
+
+.botoes a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 20px;
+    background-color:purple;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.botoes a:hover{
+    background-color:#b000b0;
+}
+
+@media (max-width:768px){
+
+header {
+    min-height: auto;
+    padding: 30px;
+}
+
+    table{
+        width:95%;
+        font-size:14px;
+    }
+
+    th,td{
+        padding:8px;
+    }
+
+    h2{
+        font-size:24px;
+    }
+    .botoes a{
+        display:block;
+        width:80%;
+        margin:10px auto;
+    }
+}
